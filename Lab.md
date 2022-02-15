@@ -23,3 +23,69 @@ method that implements tests for Circuit class and sublclasses
       System.out.println("Expected: 75.0");
    }
 }
+
+                                            Class Circuit
+                                                 
+    public class Circuit{
+          
+         public float getResistance(){
+              return 0;
+         
+         }
+    }
+        
+                                                    CLASS SERIAL 
+       
+      
+     public class Serial extends Circuit{
+          //Array list of type circuit. 
+          ArrayList<Circuit> circuits  = new ArrayList<Circuit>;
+          
+          
+          
+          
+            public float getResistance(){
+            //This sum only needs to exist in this loop.
+            float sum = 0;
+            //for each loop 
+             for (Circuit C : circuits ){
+                  C;
+            
+             }
+              return sum;
+         
+         }
+     
+     }
+              
+                
+                
+                
+                
+   
+                    
+                    
+                    
+           
+                                            
+                                            
+
+
+                                        Class Resistor 
+ 
+ public class Resistor extends Circuit{
+ 
+    private float Resistance;
+    
+      public Resistor(float Resitance){
+      //
+      
+      this.Resitance = Resitance;
+      
+      }   
+      
+      public float getResistance(){
+      
+         return float Resistance;
+      }
+ }
